@@ -9,6 +9,11 @@ where users can create , update , get and delete posts , with authorization so t
 - ### groups systhem
 with roles system, where user can create group , update it and delete it , but only if he is the super admin who is the creator,
 the creator can add members or remove them , and upgrade them to be admins, admins can delete posts in group and accept or deny join requests
+# installing
+1 `composer install`
+2 `php artisan migrate`
+3 `php artisan serve`
+16and that is it .
 
 # endpoints
 
